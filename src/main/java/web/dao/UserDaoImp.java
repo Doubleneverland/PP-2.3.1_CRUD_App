@@ -14,7 +14,7 @@ import java.util.List;
 
 
 @Component
-public class UserDaoImp implements UserDao/*, InitializingBean*/ {
+public class UserDaoImp implements UserDao {
 
     @PersistenceContext
     private EntityManager entityManager;
